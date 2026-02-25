@@ -15,12 +15,15 @@ To write a program to find the LU Decomposition of a matrix.
 
 ## Program:
 (i) To find the L and U matrix
-```
-/*
-Program to find the L and U matrix.
-Developed by: 
-RegisterNumber: 
-*/
+```python
+Developed by: Abdul Kadher S                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+RegisterNumber: 212225230002
+import numpy as np
+from scipy.linalg import lu
+A=np.array(eval(input()))
+P,L,U=lu(A)
+print(L)
+print(U)
 ```
 (ii) To find the LU Decomposition of a matrix
 ```
@@ -32,7 +35,9 @@ RegisterNumber:
 ```
 
 ## Output:
-![lu decomposition]()
+<img width="1289" height="752" alt="AdobeExpressPhotos_b1efc63f63254483be8c0dda3331b615_CopyEdited" src="https://github.com/user-attachments/assets/b7816853-a460-4572-aab9-f987d9274779" />
+<img width="1295" height="559" alt="AdobeExpressPhotos_379a4d12cdfa4235b073710a6824f747_CopyEdited" src="https://github.com/user-attachments/assets/b362ab9c-1820-4300-8d81-f73dc5d1c1a0" />
+
 
 
 ## Result:
